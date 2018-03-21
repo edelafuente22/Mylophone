@@ -41,3 +41,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
 }
 
+extension UIButton {
+    open override func draw(_ rect: CGRect) {
+        //provide custom style
+        self.layer.cornerRadius = 10
+        self.layer.masksToBounds = true
+    }
+}
+
