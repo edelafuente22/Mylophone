@@ -13,6 +13,16 @@
 		7E3A4F682061BA270077363F /* Mylophone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A4F662061BA270077363F /* Mylophone.xcdatamodeld */; };
 		7E3A4F6A2061BA270077363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A4F692061BA270077363F /* Assets.xcassets */; };
 		7E3A4F6D2061BA270077363F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A4F6B2061BA270077363F /* LaunchScreen.storyboard */; };
+		7EFEA98C20621BC000E440E2 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA98B20621BC000E440E2 /* sounds */; };
+		7EFEA99620621BD600E440E2 /* xylophone-b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA98D20621BD400E440E2 /* xylophone-b.wav */; };
+		7EFEA99720621BD600E440E2 /* xylophone-a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA98E20621BD500E440E2 /* xylophone-a.wav */; };
+		7EFEA99820621BD600E440E2 /* xylophone-d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA98F20621BD500E440E2 /* xylophone-d.wav */; };
+		7EFEA99920621BD600E440E2 /* xylophone-c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA99020621BD500E440E2 /* xylophone-c.wav */; };
+		7EFEA99A20621BD600E440E2 /* xylophone-f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA99120621BD500E440E2 /* xylophone-f.wav */; };
+		7EFEA99B20621BD600E440E2 /* xylophone-g.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA99220621BD500E440E2 /* xylophone-g.wav */; };
+		7EFEA99C20621BD600E440E2 /* xylophone-sweep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA99320621BD500E440E2 /* xylophone-sweep.wav */; };
+		7EFEA99D20621BD600E440E2 /* xylophone-e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA99420621BD500E440E2 /* xylophone-e.wav */; };
+		7EFEA99E20621BD600E440E2 /* xylophone-c2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA99520621BD500E440E2 /* xylophone-c2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		7E3A4F692061BA270077363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3A4F6C2061BA270077363F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3A4F6E2061BA270077363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFEA98B20621BC000E440E2 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = ../../../../.Trash/sounds; sourceTree = "<group>"; };
+		7EFEA98D20621BD400E440E2 /* xylophone-b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-b.wav"; path = "../../../../.Trash/sounds/xylophone-b.wav"; sourceTree = "<group>"; };
+		7EFEA98E20621BD500E440E2 /* xylophone-a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-a.wav"; path = "../../../../.Trash/sounds/xylophone-a.wav"; sourceTree = "<group>"; };
+		7EFEA98F20621BD500E440E2 /* xylophone-d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-d.wav"; path = "../../../../.Trash/sounds/xylophone-d.wav"; sourceTree = "<group>"; };
+		7EFEA99020621BD500E440E2 /* xylophone-c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-c.wav"; path = "../../../../.Trash/sounds/xylophone-c.wav"; sourceTree = "<group>"; };
+		7EFEA99120621BD500E440E2 /* xylophone-f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-f.wav"; path = "../../../../.Trash/sounds/xylophone-f.wav"; sourceTree = "<group>"; };
+		7EFEA99220621BD500E440E2 /* xylophone-g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-g.wav"; path = "../../../../.Trash/sounds/xylophone-g.wav"; sourceTree = "<group>"; };
+		7EFEA99320621BD500E440E2 /* xylophone-sweep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-sweep.wav"; path = "../../../../.Trash/sounds/xylophone-sweep.wav"; sourceTree = "<group>"; };
+		7EFEA99420621BD500E440E2 /* xylophone-e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-e.wav"; path = "../../../../.Trash/sounds/xylophone-e.wav"; sourceTree = "<group>"; };
+		7EFEA99520621BD500E440E2 /* xylophone-c2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "xylophone-c2.wav"; path = "../../../../.Trash/sounds/xylophone-c2.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,16 @@
 				7E3A4F612061BA270077363F /* ViewController.swift */,
 				7E3A4F632061BA270077363F /* Main.storyboard */,
 				7E3A4F692061BA270077363F /* Assets.xcassets */,
+				7EFEA98E20621BD500E440E2 /* xylophone-a.wav */,
+				7EFEA98D20621BD400E440E2 /* xylophone-b.wav */,
+				7EFEA99020621BD500E440E2 /* xylophone-c.wav */,
+				7EFEA99520621BD500E440E2 /* xylophone-c2.wav */,
+				7EFEA98F20621BD500E440E2 /* xylophone-d.wav */,
+				7EFEA99420621BD500E440E2 /* xylophone-e.wav */,
+				7EFEA99120621BD500E440E2 /* xylophone-f.wav */,
+				7EFEA99220621BD500E440E2 /* xylophone-g.wav */,
+				7EFEA99320621BD500E440E2 /* xylophone-sweep.wav */,
+				7EFEA98B20621BC000E440E2 /* sounds */,
 				7E3A4F6B2061BA270077363F /* LaunchScreen.storyboard */,
 				7E3A4F6E2061BA270077363F /* Info.plist */,
 				7E3A4F662061BA270077363F /* Mylophone.xcdatamodeld */,
@@ -127,7 +157,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3A4F6D2061BA270077363F /* LaunchScreen.storyboard in Resources */,
+				7EFEA99920621BD600E440E2 /* xylophone-c.wav in Resources */,
+				7EFEA98C20621BC000E440E2 /* sounds in Resources */,
+				7EFEA99D20621BD600E440E2 /* xylophone-e.wav in Resources */,
+				7EFEA99E20621BD600E440E2 /* xylophone-c2.wav in Resources */,
+				7EFEA99B20621BD600E440E2 /* xylophone-g.wav in Resources */,
+				7EFEA99A20621BD600E440E2 /* xylophone-f.wav in Resources */,
 				7E3A4F6A2061BA270077363F /* Assets.xcassets in Resources */,
+				7EFEA99C20621BD600E440E2 /* xylophone-sweep.wav in Resources */,
+				7EFEA99820621BD600E440E2 /* xylophone-d.wav in Resources */,
+				7EFEA99720621BD600E440E2 /* xylophone-a.wav in Resources */,
+				7EFEA99620621BD600E440E2 /* xylophone-b.wav in Resources */,
 				7E3A4F652061BA270077363F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

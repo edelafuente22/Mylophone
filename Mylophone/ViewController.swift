@@ -7,19 +7,37 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
+    
+    var audioPlayer: AVAudioPlayer!
+    var selectedSound = ""
+    let soundArray = ["xylophone-c", "xylophone-d", "xylophone-e", "xylophone-f", "xylophone-g", "xylophone-a", "xylophone-b", "xylophone-c2"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func notePressed(_ sender: UIButton) {
+        selectedSound = soundArray[sender.tag - 1]
+        print(selectedSound)
+        playSound()
+    
+    }
+    
+    func playSound(){
+        let sound = Bundle.main.url(forResource: selectedSound, withExtension: "wav")
+        
+        audioPlayer = try! AVAudioPlayer(contentsOf: sound!)
+        
+        audioPlayer.play()
+    }
+    
 }
 
