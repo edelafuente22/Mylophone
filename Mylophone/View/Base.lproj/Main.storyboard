@@ -106,6 +106,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woodbackground" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-z0-Xys">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhw-tE-nCg">
                                 <rect key="frame" x="4" y="48" width="367" height="70"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
@@ -136,7 +140,7 @@
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMx-pQ-dEs">
                                 <rect key="frame" x="16" y="204" width="343" height="70"/>
-                                <color key="backgroundColor" red="0.1814129877" green="0.3984516984" blue="1" alpha="0.39902611301369861" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0062356428243219852" green="0.74091166257858276" blue="0.99909764528274536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="H9k-WN-5Xw"/>
                                 </constraints>
@@ -257,7 +261,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="209" y="132"/>
+            <point key="canvasLocation" x="208.80000000000001" y="131.52709359605913"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="woodbackground" width="3888" height="2592"/>
+    </resources>
 </document>

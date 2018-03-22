@@ -21,7 +21,7 @@ class TitleViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer = try! AVAudioPlayer(contentsOf: titleSound!)
         audioPlayer.play()
         
-        Timer.scheduledTimer(timeInterval: 2.5, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
         
     }
     
