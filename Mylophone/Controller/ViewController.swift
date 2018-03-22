@@ -25,8 +25,18 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func notePressed(_ sender: UIButton) {
+        
+        UIView.animate(withDuration: 0.1,
+                        animations: {
+                        sender.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+        },
+                        completion: { _ in
+                        UIView.animate(withDuration: 0.2) {
+                            sender.transform = CGAffineTransform.identity
+                        }
+        })
+    
         selectedSound = soundArray[sender.tag - 1]
-        print(selectedSound)
         playSound()
     
     }
@@ -38,6 +48,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         audioPlayer.play()
     }
+
+    
     
 }
 
