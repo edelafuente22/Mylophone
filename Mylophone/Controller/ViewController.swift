@@ -17,7 +17,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +24,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func notePressed(_ sender: UIButton) {
-        
         UIView.animate(withDuration: 0.1,
                         animations: {
                         sender.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
@@ -43,19 +41,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     func playSound(){
         let sound = Bundle.main.url(forResource: selectedSound, withExtension: "wav")
-        
         audioPlayer = try! AVAudioPlayer(contentsOf: sound!)
-        
         audioPlayer.play()
     }
-
-    
     
 }
 
 extension UIButton {
     open override func draw(_ rect: CGRect) {
-        //provide custom style
         self.layer.cornerRadius = 10
         self.layer.masksToBounds = true
     }
